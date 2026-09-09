@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: #f8f5ef;
+  color: #24221f;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+  width: 100%;
+  background: #f8f5ef;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 1250px;
+  margin: auto;
+  padding: 22px 35px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 38px;
+}
+
+.nav-links a {
+  font-size: 14px;
+  transition: opacity 0.2s;
+}
+
+.nav-links a:hover {
+  opacity: 0.55;
+}
+
+.nav-button {
+  border: 1px solid #24221f;
+  padding: 11px 20px;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.nav-button:hover {
+  background: #24221f;
+  color: white;
+}
+
+
+/* HERO */
+
+.hero {
+  max-width: 1250px;
+  min-height: 680px;
+
+  margin: auto;
+  padding: 60px 35px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+}
+
+.hero-small,
+.section-label {
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.hero h1 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(55px, 7vw, 95px);
+  line-height: 0.98;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.hero-description {
+  max-width: 450px;
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+.location {
+  font-size: 14px;
+  margin-bottom: 35px;
+  opacity: 0.65;
+}
+
+.primary-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #24221f;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.primary-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+
+.hero-image {
+  height: 580px;
+}
+
+.hero-image img {
+  height: 100%;
+}
+
+
+/* CATEGORIES */
+
+.categories {
+  max-width: 1250px;
+  margin: auto;
+  padding: 110px 35px;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.section-heading p {
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.section-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 55px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.section-heading span {
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.category-card {
+  background: white;
+}
+
+.category-card img {
+  height: 450px;
+}
+
+.category-content {
+  padding: 32px;
+}
+
+.category-content h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+  margin-bottom: 14px;
+}
+
+.category-content p {
+  line-height: 1.7;
+  font-size: 15px;
+  opacity: 0.75;
+  margin-bottom: 20px;
+}
+
+.category-content a {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+/* ABOUT */
+
+.about {
+  background: #e9e2d5;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  min-height: 650px;
+}
+
+.about-image img {
+  height: 100%;
+  min-height: 650px;
+}
+
+.about-content {
+  padding: 100px 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-content h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 65px;
+  line-height: 1;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.about-content p:not(.section-label) {
+  max-width: 480px;
+  line-height: 1.8;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+
+/* CARE */
+
+.care {
+  max-width: 1250px;
+  margin: auto;
+  padding: 120px 35px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+}
+
+.care-content h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 65px;
+  line-height: 1;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.care-content p:last-child {
+  font-size: 17px;
+  opacity: 0.7;
+}
+
+.care-image {
+  height: 500px;
+}
+
+.care-image img {
+  height: 100%;
+}
+
+
+/* FOOTER */
+
+.footer {
+  background: #24221f;
+  color: white;
+  padding: 80px 35px 30px;
+}
+
+.footer-top {
+  max-width: 1180px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 70px;
+}
+
+.footer-top h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.footer-top p {
+  opacity: 0.65;
+}
+
+.whatsapp-button {
+  border: 1px solid white;
+  padding: 15px 30px;
+  transition: 0.3s;
+}
+
+.whatsapp-button:hover {
+  background: white;
+  color: #24221f;
+}
+
+.footer-bottom {
+  max-width: 1180px;
+  margin: auto;
+  padding-top: 25px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.footer-logo {
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .nav-container {
+    padding: 18px 20px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 50px 20px;
+    gap: 40px;
+  }
+
+  .hero h1 {
+    font-size: 60px;
+  }
+
+  .hero-image {
+    height: 450px;
+  }
+
+  .categories {
+    padding: 80px 20px;
+  }
+
+  .section-heading h2 {
+    font-size: 42px;
+  }
+
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .category-card img {
+    height: 350px;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  .about-image img {
+    min-height: 400px;
+    height: 400px;
+  }
+
+  .about-content {
+    padding: 70px 25px;
+  }
+
+  .about-content h2 {
+    font-size: 50px;
+  }
+
+  .care {
+    grid-template-columns: 1fr;
+    padding: 80px 20px;
+  }
+
+  .care-content h2 {
+    font-size: 50px;
+  }
+
+  .care-image {
+    height: 400px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+  }
+
+  .footer-top h2 {
+    font-size: 38px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
