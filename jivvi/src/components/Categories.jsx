@@ -24,7 +24,7 @@ function Categories() {
 
         <div className="category-card">
 
-          <img
+          <img className="dogs"
             src="/images/dogs.jpg"
             alt="Dogs"
           />
@@ -50,7 +50,7 @@ function Categories() {
 
         <div className="category-card">
 
-          <img
+          <img className="cats"
             src="/images/cats.jpg"
             alt="Cats"
           />

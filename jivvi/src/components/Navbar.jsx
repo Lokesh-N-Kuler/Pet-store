@@ -8,10 +8,10 @@ function Navbar() {
         </a>
 
         <div className="nav-links">
-          <a href="#home">Home</a>
-          <a href="#products">Products</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <a href="#home" className="Home">Home</a>
+          <a href="#products" className="Home">Products</a>
+          <a href="#about" className="Home" >About</a>
+          <a href="#contact" className="Home">Contact</a>
         </div>
 
         <a

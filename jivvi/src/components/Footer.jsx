@@ -24,7 +24,7 @@ function Footer() {
         </div>
 
         <a
-          href={`https://wa.me/${whatsappNumber}`}
+          href={`https://wa.me/${9886193296}`}
           target="_blank"
           rel="noreferrer"
           className="whatsapp-button"
