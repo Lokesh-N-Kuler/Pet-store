@@ -31,19 +31,16 @@ img {
 /* NAVBAR */
 
 .Home{
-  color: black;
-  border: solid black 1px;
-  padding: 5px;
-  border-radius: 10px;
-  background-color: #d97d54;
+  font-weight: bolder;
 }
 
 .navbar {
   width: 100%;
-  background: #f8f5ef;
+  background: white;
   position: sticky;
   top: 0;
   z-index: 100;
+  height: 65px;
 }
 
 .nav-container {
@@ -65,7 +62,6 @@ img {
 .nav-links {
   display: flex;
   gap: 38px;
-  
 }
 
 .nav-links a {
@@ -74,8 +70,7 @@ img {
 }
 
 .nav-links a:hover {
-  background-color: black;
-  color: #d97d54;
+  opacity: 0.55;
 }
 
 .nav-button {
@@ -83,6 +78,7 @@ img {
   padding: 11px 20px;
   font-size: 13px;
   transition: 0.3s;
+  background-color: coral;
 }
 
 .nav-button:hover {
