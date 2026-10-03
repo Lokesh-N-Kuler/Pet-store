@@ -1,6 +1,6 @@
 // ==============================================================================
 // CUSTOMER ACCOUNT & ORDER HISTORY MODAL
-// File: src/components/Account/AccountModal.jsx
+// File: src/components/Account/AccountModal.jsx manya nayiii
 // ==============================================================================
 
 import { useState, useEffect } from "react";
