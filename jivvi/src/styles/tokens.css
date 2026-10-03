@@ -1,0 +1,59 @@
+/* JIVVI Official Design Tokens & Global Variables */
+:root {
+  /* Brand Palette */
+  --color-cream: #FFF7EC;
+  --color-sand: #F3E2C8;
+  --color-sand-light: #FAF4EB;
+  --color-charcoal: #333333;
+  --color-charcoal-muted: #666666;
+  --color-dark: #111111;
+  --color-green: #4CAF50;
+  --color-green-hover: #43A047;
+  --color-green-light: #E8F5E9;
+  --color-sage: #A7D7A2;
+  --color-sage-soft: #D4ECD1;
+  --color-orange: #FF9800;
+  --color-orange-hover: #F57C00;
+  --color-orange-light: #FFF3E0;
+  --color-white: #FFFFFF;
+  --color-border: rgba(51, 51, 51, 0.10);
+  --color-border-focus: rgba(76, 175, 80, 0.4);
+
+  /* Typography */
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 6px rgba(17, 17, 17, 0.04);
+  --shadow-md: 0 6px 18px rgba(17, 17, 17, 0.06);
+  --shadow-lg: 0 14px 34px rgba(17, 17, 17, 0.09);
+  --shadow-drawer: -6px 0 32px rgba(17, 17, 17, 0.14);
+
+  /* Transitions */
+  --transition-fast: 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Container */
+  --container-max-width: 1240px;
+}
